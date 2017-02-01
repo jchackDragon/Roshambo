@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8A7E79B1DC767C800623413 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7E79A1DC767C800623413 /* HistoryViewController.swift */; };
+		E8C305961DCA025800B1655F /* Mactch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C305951DCA025800B1655F /* Mactch.swift */; };
 		E8EC699B1D6DF3690075755F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC699A1D6DF3690075755F /* AppDelegate.swift */; };
 		E8EC699D1D6DF3690075755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC699C1D6DF3690075755F /* ViewController.swift */; };
 		E8EC69A01D6DF3690075755F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC699E1D6DF3690075755F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		E8EC69A51D6DF3690075755F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC69A31D6DF3690075755F /* LaunchScreen.storyboard */; };
 		E8EC69B01D6DF3690075755F /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC69AF1D6DF3690075755F /* RoshamboTests.swift */; };
 		E8EC69BB1D6DF3690075755F /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC69BA1D6DF3690075755F /* RoshamboUITests.swift */; };
+		E8EC69CD1D6DF4850075755F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC69CC1D6DF4850075755F /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8A7E79A1DC767C800623413 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		E8C305951DCA025800B1655F /* Mactch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mactch.swift; sourceTree = "<group>"; };
 		E8EC69971D6DF3690075755F /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC699A1D6DF3690075755F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8EC699C1D6DF3690075755F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		E8EC69B61D6DF3690075755F /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC69BA1D6DF3690075755F /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		E8EC69BC1D6DF3690075755F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EC69CC1D6DF4850075755F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				E8EC69A11D6DF3690075755F /* Assets.xcassets */,
 				E8EC69A31D6DF3690075755F /* LaunchScreen.storyboard */,
 				E8EC69A61D6DF3690075755F /* Info.plist */,
+				E8EC69CC1D6DF4850075755F /* ResultViewController.swift */,
+				E8A7E79A1DC767C800623413 /* HistoryViewController.swift */,
+				E8C305951DCA025800B1655F /* Mactch.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -193,13 +202,16 @@
 				TargetAttributes = {
 					E8EC69961D6DF3690075755F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					E8EC69AA1D6DF3690075755F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E8EC69961D6DF3690075755F;
 					};
 					E8EC69B51D6DF3690075755F = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = E8EC69961D6DF3690075755F;
 					};
 				};
@@ -258,6 +270,9 @@
 			files = (
 				E8EC699D1D6DF3690075755F /* ViewController.swift in Sources */,
 				E8EC699B1D6DF3690075755F /* AppDelegate.swift in Sources */,
+				E8EC69CD1D6DF4850075755F /* ResultViewController.swift in Sources */,
+				E8C305961DCA025800B1655F /* Mactch.swift in Sources */,
+				E8A7E79B1DC767C800623413 /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.Roshambo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.Roshambo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.RoshamboTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
 			};
 			name = Debug;
@@ -439,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.RoshamboTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roshambo.app/Roshambo";
 			};
 			name = Release;
@@ -450,6 +469,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.RoshamboUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Roshambo;
 			};
 			name = Debug;
@@ -461,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bits.RoshamboUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Roshambo;
 			};
 			name = Release;
@@ -484,6 +505,7 @@
 				E8EC69C11D6DF3690075755F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8EC69C21D6DF3690075755F /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +514,7 @@
 				E8EC69C41D6DF3690075755F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8EC69C51D6DF3690075755F /* Build configuration list for PBXNativeTarget "RoshamboUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +523,7 @@
 				E8EC69C71D6DF3690075755F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
